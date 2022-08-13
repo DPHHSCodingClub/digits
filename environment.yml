@@ -2,4 +2,4 @@ dependencies:
   - python
   - matplotlib
   - numpy
-  - sklearn
+  - scikit-learn
