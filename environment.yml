@@ -2,4 +2,7 @@ dependencies:
   - python
   - matplotlib
   - numpy
+  - scipy
   - scikit-learn
+# scipy is a runtime dependency for scikit-learn
+# https://scikit-learn.org/stable/developers/advanced_installation.html
