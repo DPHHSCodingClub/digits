@@ -1,8 +1,13 @@
 dependencies:
-  - python
+  - python=3.7
+  - joblib
   - matplotlib
   - numpy
+  - pandas
   - scipy
   - scikit-learn
+  - threadpoolctl
 # scipy is a runtime dependency for scikit-learn
+# try also adding joblib, pands, threadpoolctl, and force older python
+# to get it to work...
 # https://scikit-learn.org/stable/developers/advanced_installation.html
